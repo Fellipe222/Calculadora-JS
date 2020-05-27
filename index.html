@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <div id="visor">
+                    <p id="expressao">0</p>
+                    <p id="resposta">0</p>
+                    <!--<svg width="230" height="100">
+                        <rect 
+                        width = "230" height="100"
+                        x="6" y="6" fill="gray" contenteditable="tst"/>
+                    </svg>-->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>      
+                <div id="digito1">
+                    <input type="button" value= "1" onclick="digitoPressionado('1')" class="botao">
+                </div></td>
+            <td>
+                <div id="digito2">
+                    <input type="button" value= 2 onclick="digitoPressionado('2')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="digito3">
+                    <input type="button" value= 3 onclick="digitoPressionado('3')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="sinalsoma">
+                    <input type="button" value= + onclick="operacao('+')" class="botao">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="digito4">
+                    <input type="button" value= 4 onclick="digitoPressionado('4')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="digito5">
+                    <input type="button" value= 5 onclick="digitoPressionado('5')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="digito6">
+                    <input type="button" value= 6 onclick="digitoPressionado('6')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="sinalsubtracao">
+                    <input type="button" value= - onclick="operacao('-')" class="botao">
+                </div> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="digito7">
+                    <input type="button" value= 7 onclick="digitoPressionado('7')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="digito8">
+                    <input type="button" value= 8 onclick="digitoPressionado('8')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="digito9">
+                    <input type="button" value= 9 onclick="digitoPressionado('9')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="sinalmultiplicacao">
+                    <input type="button" value="x" onclick="operacao('*')" class="botao">
+                </div>  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="digito0">
+                    <input type="button" value= 0 onclick="digitoPressionado('0')" class="botaoMaior">
+                </div>
+            </td>
+            <td>
+                <div id="virgula">
+                    <input type="button" value= , onclick="digitoPressionado('.')" class="botao">
+                </div>
+            </td>
+            <td>
+                <div id="sinaldivisao">
+                    <input type="button" value= / onclick="operacao('/')" class="botao">
+                </div>  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="limpatela">
+                    <input type="button" value="C" onclick="limpaTela()" class="botaoMaior">
+                </div>
+            </td>
+            <td colspan="2">
+                <div id="sinaligual">
+                    <input type="button" value= '=' onclick="calcula()" class="botaoMaior">
+                </div> 
+            </td>
+        </tr>
+    </table>
+    <div id="fundo">
+        
+
+
+
+
+   
+
+ 
+
+
+ 
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

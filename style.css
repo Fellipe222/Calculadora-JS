@@ -1,0 +1,70 @@
+.botao{
+    width: 50px;
+    height: 40px;
+    color: #0001ff;
+    font-family: Helvetica;
+    font-size: 25px;
+        
+    border-radius: 10px;
+    background-color: rgb(199, 216, 235);
+
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    
+}
+.botaoMaior{
+    width: 112px;
+    height: 40px;
+    color: #0001ff;
+    font-family: Helvetica;
+    font-size: 25px;
+        
+    border-radius: 10px;
+    background-color: rgb(199, 216, 235);
+
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+table{
+    
+    background-image: linear-gradient(-180deg, rgb(0, 153, 255), rgb(27, 1, 121));
+    align-items: center;
+    vertical-align: middle;
+    align-content: center  ;
+    border-radius: 13px;
+    border-width: 2px;
+
+    
+}
+#expressao{
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(94, 94, 94);
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    text-align: right;
+
+}
+#resposta{
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(94, 94, 94);
+    height: 30px;
+    text-align: right;
+    justify-content: end;
+    margin: 0px 5px 0px 5px;
+
+}
+#visor{
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(122, 122, 122), rgb(236, 236, 236));
+    width: 230px;
+    height: 80px;
+    margin: 3px;
+}
