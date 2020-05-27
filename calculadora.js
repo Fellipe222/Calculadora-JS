@@ -10,7 +10,7 @@ function digitoPressionado(num){
 }
 function operacao(sinal){
     memoria[1] += sinal
-    memoria[2] = memoria[0]
+    memoria[2] = (+memoria[0]).toFixed(2)
     memoria[0] = ''
     expressao.innerHTML = memoria[2]+memoria[1]+memoria[0]
 }
@@ -19,7 +19,7 @@ function calcula(){
     let n2 = +memoria[0]
     switch(memoria[1]){
         case "+":
-            resposta.innerHTML = (n1+n2.toFixed(2))
+            resposta.innerHTML = (n1+n2).toFixed(2)
             memoria = ['','','']
             memoria = [n1+n2,'','']
             break
@@ -38,7 +38,6 @@ function calcula(){
             memoria = ['','','']
             memoria = [n1/n2,'','']
             break
-
     }
 }
 function limpaTela(){
